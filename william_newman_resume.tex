@@ -100,13 +100,13 @@
 
 %-----------EDUCATION-----------------
 \section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Macaulay Honors College
-      at CUNY City College
-      }{New York, NY}
-      {B.S. in Computer Science; GPA: ~3.5}{Graduated December 2019}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Macaulay Honors College
+    at CUNY City College
+    }{New York, NY}
+    {B.S. in Computer Science; GPA: ~3.5}{Graduated December 2019}
+\resumeSubHeadingListEnd
 
 
 %-----------EXPERIENCE-----------------
@@ -118,90 +118,71 @@
       {Software Engineer}{Feb 2020 -- November 2024}
       \resumeItemListStart
         \resumeItem{Tutor Payments}
-          {Led team of 5 engineers to create a formal payment ledger system for tutors on the platform that is now responsible for keeping track of \$50+ million a year in money owed to our tutors. This laid the groundwork for the company-wide initiative to create new features that enabled us to pay our tutors more: a premium IELTS-focused product, reimbursement for outages.}
-        \resumeItem{Anytime Minutes}
-          {Led team of 5+ engineers to create a formal credit system for anytime minutes for students on our platform where formerly it was just a number on the student’s user object. The most immediate payoff of this project was that it allowed us to add an expiration date to 10+ million minutes that existed on our platform as a debt owed to our students. It also laid the groundwork for a number of features on our roadmap: anytime minutes upsell if student was short minutes for a lesson, a minutes-focused plan for our IELTS-focused product.}
+          {Led a team of 5 engineers to develop a payment ledger system that manages \$50+ million annually, enabling new features like a premium IELTS product and outage reimbursements for tutors. Seamlessly transitioned from old system to new system with no major issues.}
+        \resumeItem{Anytime Minutes}   
+          {Led a team to formalize a credit system for student anytime minutes, enabling expiration dates for 10+ million minutes and paving the way for features like upsells and a minutes-focused IELTS plan.}
         \resumeItem{Navbar}
-          {Led project to overhaul the web application’s navbar (messaging, notifications, links) for a company-wide rebranding initiative. As part of this project I created a version of the new navbar that was compatible with our new NextJS version of the web app which then unblocked NextJS development for core pages on our web app. All of this was delivered on a tight deadline.}
-        \resumeItem{_crossPlatform}
-          {Our NextJS (new, seeking to migrate fully over to this) and Express (old) web applications have different dependencies so I architected and implemented a light-weight solution that allowed us to create code that was guaranteed to be cross-compatible using a lint-rule that monitored imports in code in that folder.}
-        \resumeItem{CDN for NextJS Static Assets}
-          {Setup a CDN to serve static assets to our NextJS application where previously they were served from the NextJS server directly which sped up the asset load time by 20-50\% while also decreasing load on our NextJS server}
-        \resumeItem(Frontend Oncall)
-          {Active participant in frontend on-call rotation where in addition to being on-call for the web application, I discussed and helped come up with solutions for problems facing our web application some examples of which include: server-side NextJS monitoring, error boundaries, sensitivity of paging alerts}
+          {Led the overhaul of the web app's navbar for a rebranding initiative, ensuring compatibility with Next.js, which unblocked core page development on Next.js. Delivered on a tight deadline.}
+        \resumeItem{Cross-Platform Code}
+          {Architected a lightweight solution to cross-platform code sharing using lint rules to ensure code compatibility between our Next.js and Express web applications despite different dependencies.}
+        \resumeItem{CDN for Next.js Static Assets}
+          {Implemented a CDN for Next.js static assets, reducing load times by 20-50\% as well as reducing server demand.}
+        \resumeItem{Frontend On-Call}
+          {Participated in frontend on-call rotation, addressed issues like rendering errors, error boundaries, and paging alert sensitivity.}
+        \resumeItem{Tanstack Query Auto-Generation using OpenAPI}
+          {Started a project to use our OpenAPI spec to auto-generate Tanstack Queries and Mutations, providing built-in caching, request-state management, and cache-invalidation.}
+        \resumeItem{Syntax Design System}
+          {Attended weekly design system meetings. Fixed bugs, added features, and created new components for the design system.}
       \resumeItemListEnd
       
 
     \resumeSubheading
       {Cambly}{San Francisco, CA}
-      {Intern}{Summer 2019}
+      {Software Engineering Intern}{Summer 2019}
       \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowdsourcing platform which allowed for creating various tasks for crowdsourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on Docker and AWS, standardized the Python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Used this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+        \resumeItem{Tutor Signup Flow}
+          {Overhauled + augmented signup flow for tutors on our platform.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {SmartEquip}{Norwalk, CT}
+      {Software Engineering Intern}{June 2018 - August 2018}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging, portfolio optimization and price forecasting. Also created a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Client Config}
+          {Built an internal tool that enabled my coworkers to more easily tailor the appearance and functionality of SmartEquip’s main product to each client’s needs. More specifically, I built a tool that allowed users to save, load, and track changes made to a client’s settings with the help of a simple, intuitive interface.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 -- Dec 2013}
+    
+      \resumeSubheading
+      {CUNY City College}{New York, NY}
+      {Research Assistant}{June 2017 - January 2018}
       \resumeItemListStart
-        \resumeItem{Research Assistant -- Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the Python library QSTK.}
-        \resumeItem{Teaching Assistant -- Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+        \resumeItem{Research Contributions}
+        {Edited journal papers, conducted Git tutorials, and developed data parsing programs to streamline transportation matrix creation, QGIS line generation, and SQL data entry.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source Python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{GitHub Visualization}
-      {Data visualization of Git log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step-by-step instructions on setting up developer environment on macOS.}
+    \resumeSubItem{Note AI}
+      {Autocomplete for songwriting. Built with React, Next.js, Deno and MongoDB.}
+    \resumeSubItem{WoChat}
+      {A Slack clone built with React, Nest.js, and MongoDB}
   \resumeSubHeadingListEnd
 
-%
-%--------SKILLS------------
-%\section{Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, JavaScript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+
+% --------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: Typescript, Javascript, Python} 
+   }
+   \item{
+     \textbf{Technologies}{: React, Next.js, React Query, CSS, MongoDB, Flask, HTML, Heroku, AWS S3, AWS Route 53, AWS Cloudfront, Jira, Git, LLM Apis}
+   }
+ \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
